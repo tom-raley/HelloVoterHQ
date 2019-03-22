@@ -241,7 +241,7 @@ export async function mockFetch(token, uri, method, body) {
     throw err;
   }
 
-  dashboard = {volunteers: volunteers.length, teams: teams.length, turfs: turfs.length, forms: forms.length, attributes: 0, addresses: 0, dbsize: 0};
+  dashboard = { volunteers: volunteers.length, teams: teams.length, turfs: turfs.length, forms: forms.length, attributes: 0, addresses: 0, dbsize: 0 };
 
   // return test data based on URI
   switch (true) {
